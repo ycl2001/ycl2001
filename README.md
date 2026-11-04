@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/34356406/README.1.md)
 # Hi, I'm Selina (Yen-Chun Liu) 👋
 
 ### Product-Minded Software Developer | SwiftUI • Privacy-Aware AI • Data
