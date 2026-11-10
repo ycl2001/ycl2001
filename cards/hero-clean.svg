@@ -1,0 +1,23 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="344" viewBox="0 0 1000 344" role="img" aria-labelledby="title desc">
+    <title id="title">Selina Liu</title><desc id="desc">Product-minded software developer working with SwiftUI, responsible AI, and data products</desc>
+    <defs>
+      <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F6F7F9"/><stop offset="1" stop-color="#ECEEF3"/></linearGradient>
+      <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1D1E33"/><stop offset="1" stop-color="#292A47"/></linearGradient>
+      <linearGradient id="twilight" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3A385E"/><stop offset="1" stop-color="#44436C"/></linearGradient>
+      <linearGradient id="dusk" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#585183"/><stop offset="1" stop-color="#68639F"/></linearGradient>
+      <style><![CDATA[
+      text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+      .serif{font-family:Georgia,'Times New Roman',serif;font-style:italic}
+      @keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes gleam{0%,100%{opacity:.55}50%{opacity:.86}}
+      @keyframes grow{from{transform:scaleY(.12)}to{transform:scaleY(1)}}
+      .fade{animation:appear .85s ease-out both}
+      .glow{animation:gleam 6s ease-in-out infinite}
+      .bar{transform-box:fill-box;transform-origin:center bottom;animation:grow .8s ease-out both}
+      @media (prefers-reduced-motion:reduce){.fade,.glow,.bar{animation:none!important;opacity:1!important;transform:none!important}}
+      ]]></style>
+    </defs>
+    <rect x="1" y="1" width="998" height="342" rx="22" fill="url(#surface)" stroke="#D9DEE8"/>
+    <rect x="751" y="55" width="168" height="225" rx="20" fill="#E9ECF5" stroke="#D9DDEE"/><text x="770" y="84" fill="#746DCE" font-size="12" font-weight="750" letter-spacing="1.5">HOW I THINK</text><rect x="771" y="110" width="126" height="43" rx="10" fill="#F7F7FA" stroke="#D3D5E7"/><rect x="780" y="125" width="13" height="13" rx="3" fill="#776ECE" /><text x="803" y="138" fill="#171827" font-size="15" font-weight="650" >Discover</text><path d="M834 153 v12" stroke="#746DCE" stroke-width="1.5" stroke-dasharray="3 3"/><rect x="771" y="165" width="126" height="43" rx="10" fill="#F7F7FA" stroke="#D3D5E7"/><rect x="780" y="180" width="13" height="13" rx="3" fill="#776ECE" /><text x="803" y="193" fill="#171827" font-size="15" font-weight="650" >Design</text><path d="M834 208 v12" stroke="#746DCE" stroke-width="1.5" stroke-dasharray="3 3"/><rect x="771" y="220" width="126" height="43" rx="10" fill="#F7F7FA" stroke="#D3D5E7"/><rect x="780" y="235" width="13" height="13" rx="3" fill="#776ECE" /><text x="803" y="248" fill="#171827" font-size="15" font-weight="650" >Deliver</text><text x="45" y="52" fill="#746DCE" font-size="14" font-weight="700" class="fade" >PRODUCT THINKING / SOFTWARE ENGINEERING</text><text x="43" y="120" fill="#171827" font-size="65" font-weight="750" class="fade" >Selina</text><text x="245" y="120" fill="#746DCE" font-size="65" font-family="Georgia, Times New Roman, serif" class="fade" font-style="italic">Liu</text><text x="46" y="158" fill="#64697C" font-size="18" >Yen-Chun Liu  ·  Sydney, Australia  ·  UTS Master of IT</text><text x="46" y="202" fill="#171827" font-size="22" font-weight="500" >I build thoughtful software where product</text><text x="46" y="231" fill="#171827" font-size="22" font-weight="500" >and engineering meet.</text><text x="47" y="280" fill="#64697C" font-size="16" >SwiftUI  ·  Privacy-aware AI  ·  Data products</text>
+    </svg>
