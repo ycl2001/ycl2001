@@ -1,16 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="318" height="237" viewBox="0 0 318 237" role="img"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#16172a"/><stop offset="1" stop-color="#0c0d17"/></linearGradient><linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#d8def8"/><stop offset=".6" stop-color="#9889ef"/><stop offset="1" stop-color="#8bbce7"/></linearGradient><style><![CDATA[
-    text{font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="322" height="202" viewBox="0 0 322 202" role="img" aria-labelledby="title desc">
+    <title id="title">BUILD</title><desc id="desc">Focus area: BUILD</desc>
+    <defs>
+      <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F6F7F9"/><stop offset="1" stop-color="#ECEEF3"/></linearGradient>
+      <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1D1E33"/><stop offset="1" stop-color="#292A47"/></linearGradient>
+      <linearGradient id="twilight" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3A385E"/><stop offset="1" stop-color="#44436C"/></linearGradient>
+      <linearGradient id="dusk" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#585183"/><stop offset="1" stop-color="#68639F"/></linearGradient>
+      <style><![CDATA[
+      text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+      .serif{font-family:Georgia,'Times New Roman',serif;font-style:italic}
+      @keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes gleam{0%,100%{opacity:.55}50%{opacity:.86}}
+      @keyframes grow{from{transform:scaleY(.12)}to{transform:scaleY(1)}}
+      .fade{animation:appear .85s ease-out both}
+      .glow{animation:gleam 6s ease-in-out infinite}
+      .bar{transform-box:fill-box;transform-origin:center bottom;animation:grow .8s ease-out both}
+      @media (prefers-reduced-motion:reduce){.fade,.glow,.bar{animation:none!important;opacity:1!important;transform:none!important}}
+      ]]></style>
+    </defs>
     
-    @keyframes appear{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
-    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
-    @keyframes breathe{0%,100%{opacity:.42}50%{opacity:.9}}
-    @keyframes draw{from{stroke-dashoffset:500}to{stroke-dashoffset:0}}
-    @keyframes grow{from{transform:scaleY(.08)}to{transform:scaleY(1)}}
-    .fade{opacity:0;animation:appear .8s cubic-bezier(.2,.7,.2,1) forwards}
-    .float{animation:float 6s ease-in-out infinite}
-    .breathe{animation:breathe 4s ease-in-out infinite}
-    .line{stroke-dasharray:500;animation:draw 2.2s ease forwards}
-    .bar{transform-box:fill-box;transform-origin:center bottom;animation:grow .8s ease-out both}
-    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;opacity:1!important;transform:none!important}}
-    
-    ]]></style></defs><rect x="1" y="1" width="316" height="235" rx="22" fill="url(#bg)" stroke="#41425c" stroke-opacity=".8"/><circle cx="263" cy="56" r="39" fill="none" stroke="#91bee7" stroke-width="1.3" opacity=".55" class="float"/><circle cx="263" cy="56" r="25" fill="#91bee7" opacity=".12"/><text x="24" y="49" font-size="15" fill="#91bee7" font-weight="700" class="" >02</text><text x="24" y="103" font-size="34" fill="#e5e7f0" font-weight="700" class="fade" style="animation-delay:0.25s">BUILD</text><text x="24" y="140" font-size="17" fill="#cbd2e9" font-weight="400" class="" >Apple-platform software</text><text x="24" y="176" font-size="14" fill="#a5acc5" font-weight="400" class="" >Swift · SwiftUI · testing</text><path d="M24 203 H284" stroke="#91bee7" stroke-opacity=".6"/><text x="264" y="221" font-size="21" fill="#91bee7" font-weight="600" class="" >+</text></svg>
+    <rect x="1" y="1" width="320" height="200" rx="19" fill="url(#twilight)" stroke="#4E526F"/><text x="25" y="43" fill="#B8CEFF" font-size="13" font-weight="700" letter-spacing="1">02</text><rect x="276" y="27" width="12" height="12" rx="3" fill="none" stroke="#B8CEFF" stroke-opacity=".66"/><rect x="267" y="38" width="12" height="12" rx="3" fill="none" stroke="#B8CEFF" stroke-opacity=".66"/><rect x="258" y="49" width="12" height="12" rx="3" fill="none" stroke="#B8CEFF" stroke-opacity=".66"/><text x="25" y="100" fill="#F5F6FC" font-size="36" font-weight="750" >BUILD</text><text x="25" y="136" fill="#D7DAEC" font-size="15" >SwiftUI apps and maintainable code</text><text x="25" y="159" fill="#D7DAEC" font-size="15" >Architecture, testing, accessibility</text><path d="M25 180 H295" stroke="#777992" stroke-opacity=".65"/><path d="M278 184 L290 172 M282 172 H290 V180" fill="none" stroke="#B8B5ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>

@@ -1,28 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="345" viewBox="0 0 1000 345" role="img">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f1eeea"/><stop offset="1" stop-color="#e6e2dc"/></linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6d6ad9"/><stop offset="1" stop-color="#8aa8d8"/></linearGradient>
-  <style><![CDATA[
-    text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
-    .serif{font-family:Georgia,'Times New Roman',serif;font-style:italic}
-    @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
-    .fade{opacity:0;animation:rise .7s ease-out forwards}
-    @media(prefers-reduced-motion:reduce){.fade{opacity:1;animation:none}}
-  ]]></style>
-</defs>
-<rect x="1" y="1" width="998" height="343" rx="22" fill="url(#bg)" stroke="#d5d0cb"/>
-<circle cx="835" cy="154" r="116" fill="none" stroke="#c9c2ff" stroke-width="1.5"/>
-<circle cx="835" cy="154" r="88" fill="#dbd7f8" opacity=".72"/>
-<circle cx="860" cy="146" r="88" fill="#efebe5"/>
-<path d="M745 252 Q836 295 923 245" fill="none" stroke="url(#accent)" stroke-width="2.4" stroke-dasharray="4 4"/>
-<circle cx="835" cy="154" r="128" fill="none" stroke="#d9d4f4" stroke-dasharray="1 12" opacity=".8"/>
-<text x="48" y="56" font-size="14" fill="#6b67d8" font-weight="700" class="fade" style="animation-delay:.05s">PRODUCT THINKING  /  SOFTWARE ENGINEERING</text>
-<text x="46" y="118" font-size="62" fill="#111015" font-weight="760" class="fade" style="animation-delay:.15s">Selina</text>
-<text x="242" y="118" font-size="62" fill="#111015" class="serif fade" style="animation-delay:.23s">Liu</text>
-<text x="48" y="160" font-size="20" fill="#363646" font-weight="450" class="fade" style="animation-delay:.33s">Sydney-based builder of SwiftUI apps, data tools, and thoughtful product experiences.</text>
-<text x="48" y="197" font-size="18" fill="#575868" class="fade" style="animation-delay:.43s">Yen-Chun Liu · UTS Master of IT · Moonshade Silver</text>
-<text x="48" y="244" font-size="20" fill="#18181f" font-weight="500" class="fade" style="animation-delay:.53s">I turn complex problems into calm, testable software.</text>
-<rect x="48" y="276" width="370" height="34" rx="17" fill="#ece7f7" stroke="#d4cff0"/>
-<text x="65" y="298" font-size="12" fill="#45485b" font-weight="700">DISCOVER  /  DESIGN  /  BUILD  /  TEST</text>
-<text x="49" y="327" font-size="13" fill="#5d6176">SwiftUI · Privacy-aware AI · Data products · Product engineering</text>
-</svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="344" viewBox="0 0 1000 344" role="img" aria-labelledby="title desc">
+    <title id="title">Selina Liu</title><desc id="desc">Product-minded software developer working with SwiftUI, responsible AI, and data products</desc>
+    <defs>
+      <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F6F7F9"/><stop offset="1" stop-color="#ECEEF3"/></linearGradient>
+      <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1D1E33"/><stop offset="1" stop-color="#292A47"/></linearGradient>
+      <linearGradient id="twilight" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3A385E"/><stop offset="1" stop-color="#44436C"/></linearGradient>
+      <linearGradient id="dusk" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#585183"/><stop offset="1" stop-color="#68639F"/></linearGradient>
+      <style><![CDATA[
+      text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+      .serif{font-family:Georgia,'Times New Roman',serif;font-style:italic}
+      @keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes gleam{0%,100%{opacity:.55}50%{opacity:.86}}
+      @keyframes grow{from{transform:scaleY(.12)}to{transform:scaleY(1)}}
+      .fade{animation:appear .85s ease-out both}
+      .glow{animation:gleam 6s ease-in-out infinite}
+      .bar{transform-box:fill-box;transform-origin:center bottom;animation:grow .8s ease-out both}
+      @media (prefers-reduced-motion:reduce){.fade,.glow,.bar{animation:none!important;opacity:1!important;transform:none!important}}
+      ]]></style>
+    </defs>
+    <rect x="1" y="1" width="998" height="342" rx="22" fill="url(#surface)" stroke="#D9DEE8"/>
+    <rect x="751" y="55" width="168" height="225" rx="20" fill="#E9ECF5" stroke="#D9DDEE"/><text x="770" y="84" fill="#746DCE" font-size="12" font-weight="750" letter-spacing="1.5">HOW I THINK</text><rect x="771" y="110" width="126" height="43" rx="10" fill="#F7F7FA" stroke="#D3D5E7"/><rect x="780" y="125" width="13" height="13" rx="3" fill="#776ECE" /><text x="803" y="138" fill="#171827" font-size="15" font-weight="650" >Discover</text><path d="M834 153 v12" stroke="#746DCE" stroke-width="1.5" stroke-dasharray="3 3"/><rect x="771" y="165" width="126" height="43" rx="10" fill="#F7F7FA" stroke="#D3D5E7"/><rect x="780" y="180" width="13" height="13" rx="3" fill="#776ECE" /><text x="803" y="193" fill="#171827" font-size="15" font-weight="650" >Design</text><path d="M834 208 v12" stroke="#746DCE" stroke-width="1.5" stroke-dasharray="3 3"/><rect x="771" y="220" width="126" height="43" rx="10" fill="#F7F7FA" stroke="#D3D5E7"/><rect x="780" y="235" width="13" height="13" rx="3" fill="#776ECE" /><text x="803" y="248" fill="#171827" font-size="15" font-weight="650" >Deliver</text><text x="45" y="52" fill="#746DCE" font-size="14" font-weight="700" class="fade" >PRODUCT THINKING / SOFTWARE ENGINEERING</text><text x="43" y="120" fill="#171827" font-size="65" font-weight="750" class="fade" >Selina</text><text x="245" y="120" fill="#746DCE" font-size="65" font-family="Georgia, Times New Roman, serif" class="fade" font-style="italic">Liu</text><text x="46" y="158" fill="#64697C" font-size="18" >Yen-Chun Liu  ·  Sydney, Australia  ·  UTS Master of IT</text><text x="46" y="202" fill="#171827" font-size="22" font-weight="500" >I build thoughtful software where product</text><text x="46" y="231" fill="#171827" font-size="22" font-weight="500" >and engineering meet.</text><rect x="46" y="259" width="398" height="36" rx="18" fill="#E6E4F6" stroke="#D4D0EE"/><text x="64" y="283" fill="#4F4C7B" font-size="13" font-weight="700" >DISCOVER   /   DESIGN   /   BUILD   /   TEST</text><text x="47" y="320" fill="#64697C" font-size="16" >SwiftUI  ·  Privacy-aware AI  ·  Data products</text>
+    </svg>
